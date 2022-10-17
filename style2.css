@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;600;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+
+body{
+	background: url(images/bg.jpg);
+	display: inline;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	justify-items: center;
+	min-height: 95vh;
+	font-family: 'Fredoka One', cursive;
+}
+
+h1{
+	font-size: 3rem;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	padding-top: 1rem;
+	margin-bottom: -20px;
+	text-shadow: 0 0.2em 0.2em black;
+}
+
+form{
+	background: #EEF3EF;
+	border-radius: 40px;
+	margin: 2.5rem 15rem;
+	height: 34rem;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	position: center;
+	line-height: 2rem;
+	box-shadow: 0 1.25em 1.8em black;
+}
+.amount p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	padding: 1rem;
+}
+.amount-input{
+	padding: 5px;
+	margin: 1px;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	font-size: 1rem;
+	box-shadow: 0 0.1em 0.2em black;
+}
+
+.drop-list{
+	text-align: center;
+	justify-content: center;
+	line-height: 3rem;
+}
+.from{
+	text-align: center;
+	justify-content: center;
+}
+img{
+	height: 3.7rem;
+	width: 7rem;
+	margin-top: -1rem;
+}
+.select-box{
+	justify-content: center;
+	align-items: center;
+	display: inline-flex;
+	min-width: 80%;
+	gap: 2rem;
+}
+.note{
+	padding: 0.5rem;
+}
+.select-1{
+	padding: 0.7rem 16px;
+	width: 30%;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	justify-content: center;
+	box-shadow: 0 0.1em 0.3em black;
+	margin-bottom: 1rem;
+}
+.middle{
+	justify-content: center;
+	text-align: center;
+}
+.select-2{
+	padding: 0.7rem 16px;
+	width: 30%;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	justify-content: center;
+	margin-bottom: 1rem;
+	box-shadow: 0 0.1em 0.3em black;
+}
+
+.exchange-rate{
+	padding-top: 6px;
+	font-size: 1.5rem;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.btn{
+	background: #0D91E0;
+	color: white;
+	padding: 1rem;
+	border-style: none;
+	border-radius: 30px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 1rem;
+	box-shadow: 0 0.2em 0.1em #055886;
+}
+.btn:active {
+    transform: scale(0.96);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    background: black;
+}
+.middle{
+	justify-content: center;
+	text-align: center;
+/*	overflow-x: auto;*/
+	gap: rem;
+}
+.rate{
+	padding: 0.5rem 0rem;
+}
+.to{
+	margin-top: -1.5rem;
+
+}
+.butn{
+	background: #C19706;
+	color: white;
+	padding: 0.8rem;
+	border-style: none;
+	border-radius: 30px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.3rem;
+	transition: 0.3s;
+	box-shadow: 0 0.2em 0.1em #866005
+}
+.butn:hover{
+	letter-spacing: 2px;
+}
+.butn:active {
+    transform: scale(0.96);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    background: black;
+}
+/*.footer{
+	padding-top: 3rem;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-weight: bold;
+}*/
+.exchange-rate{
+	padding-top: 1rem;
+}
+
+
+@media (max-width: 450px) {
+	body{
+		min-height: 95vh;
+	}
+	h1{
+		font-size: 2rem;
+		width: 100%;
+	}
+	form{
+		width: 90%;
+		margin-left: 1rem;
+		justify-content: center;
+		align-items: center;
+		padding: 0rem 0rem 0rem;
+		height: 36rem;
+	}
+	.select-1{
+		width: 75%;
+	}
+	.select-2{
+		width: 75%;
+	}
+}

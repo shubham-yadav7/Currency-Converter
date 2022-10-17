@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Currency Converter</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<h1>CURRENCY CONVERTER</h1>
+	<div class="form">
+		<form action="#">
+			<div class="amount">
+				<p>Enter Amount</p>
+				<input class="amount-input" type="number" value="1">
+			</div>
+			<div class="drop-list">
+				<div class="from">
+					<p>From</p>
+					<div class="select-box">
+						<select class="select-1">
+							<option value="USD" selected>US Dollars</option>
+							<option  value="EUR">Euro</option>
+							<option  value="AUD">AUS Dollars</option>
+							<option  value="INR">Indian Rupees</option>
+							<option value="GBP">United Kingdom Pounds</option>
+							<option value="CAD">Canadian Dollars</option>
+							<option  value="JPY">Japanese Yen</option>
+							<option  value="CNY">Chinese Renminbi</option>
+							<option value="HKD">Hong Kong Dollars</option>
+							<option value="NZD">New Zealand Dollars</option>
+						</select>
+					</div>
+				</div>
+				<div class="middle">
+					
+						<button class="btn">SWAP</button>
+					
+					<div class="rate"></div>
+				</div>
+				<div class="to">
+					<p>To</p>
+					<div class="select-box">
+						<select class="select-2">
+							<option value="USD">US Dollars</option>
+							<option value="EUR">Euro</option>
+							<option value="AUD">AUS Dollars</option>
+							<option value="INR" selected>Indian Rupees</option>
+							<option value="GBP">United Kingdom Pounds</option>
+							<option  value="CAD">Canadian Dollars</option>
+							<option  value="JPY">Japanese Yen</option>
+							<option  value="CNY">Chinese Renminbi</option>
+							<option  value="HKD">Hong Kong Dollars</option>
+							<option value="NZD">New Zealand Dollars</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<button class="butn">Get Exchange Rate</button>
+			<div class="exchange-rate"></div>
+								
+		</form>
+	<p style="margin-top: -1.5rem; color: white;">Created By | Shubham Yadav</p>
+	</div>
+	<script type="text/javascript" src="script.js "></script>
+</body>
+</html>

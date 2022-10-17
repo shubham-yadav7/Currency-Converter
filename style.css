@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;600;800&display=swap');
+
+.home{
+	min-height: 100vh;
+	margin-top: -1rem;
+	background: url(images/home.jpg);
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	background-size: cover;
+	background-position: center;
+}
+.home .content{
+	padding: 17rem 11rem;
+	background-color: white;
+	height: 380px;
+	width: 500px;
+	border-radius: 80%;
+	margin-left: 15rem;
+	justify-content: center;
+	align-items: center;
+	line-height: 5rem;
+	text-align: center;
+	position: relative;
+	padding-top: 2rem;
+}
+.square{
+	height: 50px;
+	width: 35rem;
+	background-color: white;
+	margin-bottom: -40rem;
+	margin-top: -43rem;
+	margin-left: 26rem;
+}
+.content h1{
+	font-family: 'Fredoka One', cursive;
+	font-size: 4rem;
+	text-align: center;
+	padding-bottom: 1.6rem;
+	border-bottom: 2px solid grey;
+	text-shadow: 0.1em 0.1em 0.1em gray;
+}
+.content p{
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	line-height: 2rem;
+	width: 110%;
+	margin-top: 1rem;
+	text-shadow: 2px 1px 4px grey;
+
+}
+
+.button{
+	width: 40%;
+	height: 22%;
+	cursor: pointer;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	font-size: 2.5rem;
+	justify-content: center;
+	margin-top: 2rem;
+	font-weight: bolder;
+	display: inline-block;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	background: darkgrey;
+	border-radius: 40px;
+	text-transform: uppercase;
+	transition: 0.3s;
+	box-shadow: 0 0.1em 0.1em black;
+}
+.button:hover{
+	width: 42%;
+	height: 23%;
+	background: gray;
+	letter-spacing: 3px;
+}
+.button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    background: black;
+}
+
+
+
+@media (max-width: 450px){
+	.square{
+		height: 0px;
+		width: 0px;
+	}
+	*{
+		background-color:white;
+		max-width: 50vh;
+		min-height: 1vh;
+		margin: 1rem 0rem 0rem 0.3rem;
+		text-align: center;
+		justify-content: center;
+
+
+	}
+	.home{
+		height: 0px;
+		width: 0px;
+		}
+	.home .content{
+ 	margin-left: 0rem;
+ 	padding: 0rem 0rem 0rem;
+ 	margin-right: 0rem;
+ 	max-width: 50vh;
+	}
+	.content h1{
+		font-size: 2.3rem;
+		line-height: 3rem;
+		margin: 0rem 0rem 0rem 0rem;
+
+	}
+	.button{
+		width: 70%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
